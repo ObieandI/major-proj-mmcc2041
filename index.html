@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200&display=swap" rel="stylesheet">
+
+    <title>
+        <h1>Home Page</h1>
+    </title>
+
+    <script>
+        $(document).ready(function () {
+
+            $('h2').hide();
+            $('.content').mouseenter(function () {
+                $(this).find('h2').stop().slideDown();
+            });
+            $('.content').mouseleave(function () {
+                $('h2').stop().slideUp();
+            });
+        });
+    </script>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <nav class="menubar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AlexanderPichushkin.html">Alexander</a></li>
+                <li><a href="SamuelLittle.html">Samuel</a></li>
+                <li><a href="PedroRodriguesFilho.html">Pedro</a></li>
+                <li><a href="MikhailPopkov.html">Mikhail</a></li>
+            </ul>
+        </nav>
+
+        <section class="content" id="home">
+            <h1 id="homeTitle">The Top Four Most Infamous Serial Killers</h1>
+            <div id="mainInformationHomePage">
+                <p id="homePage"> Serial killers shows, movies and podcasts are some of the most favourited media forms. This website
+                    aims to provide further information into some of the most notorious serial killers known to man.</p>
+            </div>
+        </section>
+
+        <a href="SamuelLittle.html" class="previous">&#8249;</a>
+        <a href="AlexanderPichushkin.html" class="next">&#8250;</a>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale-1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200&display=swap" rel="stylesheet">
+
+    <title>
+        <h1>Alexander Pichushkin</h1>
+    </title>
+
+    <script>
+        $(document).ready(function () {
+            $('h2').hide();
+            $('.content').mouseenter(function () {
+                $(this).find('h2').stop().slideDown();
+            });
+            $('.content').mouseleave(function () {
+                $('h2').stop().slideUp();
+            });
+        });
+    </script>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <nav class="menubar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AlexanderPichushkin.html">Alexander</a></li>
+                <li><a href="SamuelLittle.html">Samuel</a></li>
+                <li><a href="PedroRodriguesFilho.html">Pedro</a></li>
+                <li><a href="MikhailPopkov.html">Mikhail</a></li>
+            </ul>
+        </nav>
+
+        <section class="content" id="Alexander">
+            <div class="Chapters">
+                <h2 class="Buttons">Alexander Pichushkin</h2>
+            </div>
+        </section>
+
+        <a href="index.html" class="previous">&#8249;</a>
+        <a href="SamuelLittle.html" class="next">&#8250;</a>
+
+
+        <section class="content" id="home">
+
+            <h1>The Chessboard Killer</h1>
+            <div class="mainContent">
+
+                <div id="quickInformation">
+                    <img id="thumbNail" src="images/AlexanderPichushkinThumbNail.jpg" alt="Alexander">
+                    <h3>Russian Serial Killer</h3>
+                    <p><b>Alias:</b> The Bitsa Park Maniac, <br> The Chessboard Killer</p>
+                    <p><b>Born:</b> <a href="https://www.google.com/maps/place/Mytishchi,+Moscow+Oblast,+Russia/"
+                            target="_blank">Mytishchi, Russia</a></p>
+                    <p><b>Victims:</b> 48 confirmed, 60 confessed</p>
+                    <p><b>Status:</b> Life Inprisonments</p>
+                </div>
+
+                <div id="mainInformation">
+                    <p> Alexander Pichushkin was born on April 9th, 1971, in Moscow Russia. He had a normal childhood,
+                        however at the age of 4, he suffered a head injury due to a swing-set incident. This ultimately
+                        resulted in Pichushkin exhibiting abnormal and “unlike” behaviours such as impulsive decision
+                        making and violent outbursts <a href="https://criminalminds.fandom.com/wiki/Alexander_Pichushkin" target="_blank">(Criminal Minds Wiki, n.d.)</a>, <a href="https://www.ranker.com/list/creepy-facts-alexander-pichushkin/amandasedlakhevener" target="_blank">(Sedlak-Hevener, n.d.)</a>. Alexander
+                        Pichushkin was originally nicknamed as the Bitsa Park Maniac, however when the police discovered
+                        how he liked to commemorate his victims, Pichushkin was branded with the Chessboard Killer title
+                        by media outlets <a href="https://www.reuters.com/article/us-russia-serialkiller/russian-chessboard-killer-convicted-of-48-murders-idUSL247048420071024" target="_blank">(Lowe, 2007)</a>. Pichushkin would keep a journal where he drew a chessboard
+                        containing the dates each murder took place, on each square piece of the chessboard.
+                        <a href="https://www.ranker.com/list/creepy-facts-alexander-pichushkin/amandasedlakhevener" target="_blank">(Sedlak-Hevener, n.d.)</a> Pichushkin was first introduced to chess by his grandfather and would
+                        often sit at the park playing chess and drinking alcohol, although Pichushkin was good at chess,
+                        he found that alcohol would make him better. Thus, his method of killing would start with a
+                        drinking invitation, and later luring his victims to a quieter side of the park where he
+                        proceeded to attack them from behind. Pichushkin was arrested after a colleague left his phone
+                        number with a relative in case of any emergencies. Pichuskin invited his colleague into the
+                        woods, where she was later found murdered due to phone tracing by detectives. At the time of his
+                        arrest, Pichushkin occupied a total of 61 out of 64 pieces. His goal consisted of surpassing the
+                        most notorious serial killer at the time, known as the Rostov Ripper, which mutilated a total
+                        of 52 victims. He often described killing as “falling in love” <a href="https://www.reuters.com/article/us-russia-serialkiller/russian-chessboard-killer-convicted-of-48-murders-idUSL247048420071024" target="_blank">(Lowe, 2007)</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
