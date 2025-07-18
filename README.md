@@ -14,7 +14,6 @@ The aim was to create a compelling, research-based site that educates users abou
 
 - **Languages:** HTML, CSS, JavaScript
 - **Version Control:** Git & GitHub
-- **Scripting:** C# (Visual Studio Code)
 - **Tools:** Visual Studio Code, Google Fonts, image optimization tools
 - **Referencing Style:** APA-style in-text and image referencing
 
