@@ -2,7 +2,7 @@
 
 An informative and research-driven website exploring the psychological, social, and criminal profiles of some of history’s most notorious serial killers. Developed using HTML, CSS, and JavaScript as part of the MMCC2041 unit at Macquarie University.
 
-<img width="822" alt="Website Screenshot" src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/03/real-life-dexter-og.jpg" />
+<img width="1902" height="903" alt="Interactive Website" src="https://github.com/user-attachments/assets/c886fabe-11b5-4ec5-992d-0dd2ded0d558" />
 
 ## About the Website
 
@@ -55,8 +55,6 @@ I worked on this project independently, contributing to:
 ![Alexander Pichushkin](https://github.com/user-attachments/assets/715e2014-7ad1-4d3f-bc2b-6c1e346149f3)
 
 ![AlexanderPichushkinThumbNail](https://github.com/user-attachments/assets/6c4f7be3-3555-41ed-b868-3b45807bf810)
-
-![Background Image](https://github.com/user-attachments/assets/217b17d9-dae6-41c8-aa24-f98a2037c98e)
 
 ![Mikhail Popkov](https://github.com/user-attachments/assets/c3add1e6-799e-489f-b3ed-2c8c7c05705f)
 
